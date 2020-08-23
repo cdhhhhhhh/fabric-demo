@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+<style>
+    .btn{
+        margin-bottom: 30px;
+    }
+    .btn div{
+
+        display: inline-block;
+        padding: 10px;
+        background: #4c4ca7;
+        color: white;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+</style>
 <body>
-<canvas width="3000" height="3000" id="c"></canvas>
+<div class="btn">
+    <div id="push">前进</div>
+    <div id="pop">撤销</div>
+</div>
+<canvas width="1600" height="1000" id="c"></canvas>
 </body>
 <script src="main.js"></script>
 </html>

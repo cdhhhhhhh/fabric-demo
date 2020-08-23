@@ -13,7 +13,7 @@ var rect = new fabric.Rect({
     height: 50,
     angle:0
 });
-var text = new fabric.Text('hello world', { left: 100, top: 100 ,  fontFamily: 'Comic Sans'});
+var text = new fabric.IText('hello world', { left: 100, top: 100 ,  fontFamily: 'Comic Sans'});
 rect.setGradient('fill', {
     x1: 0,
     y1: 0,
@@ -42,5 +42,7 @@ rect.animate('angle', '2222', {
 //     img.applyFilters();
 //     canvas.add(img);
 // });
+
+
 // "add" rectangle onto canv
 canvas.add(rect,text);
